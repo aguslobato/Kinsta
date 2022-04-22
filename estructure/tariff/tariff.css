@@ -1,0 +1,1043 @@
+.nav-link{
+    color: #ffffff !important;
+}
+.nav-link:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.enlace-claro-nav{
+    color:  #ffffff;
+    padding: 10px 30px;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+} 
+.enlace-claro-nav:hover{
+    color: #5641c0;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+}
+.navbar-brand{
+    font-family: 'Mulish', sans-serif;
+    color: #ffffff !important;
+    font-size: 25px !important;
+}
+
+/*PRIMER SECCION TARIFF*/
+.planes{
+    padding: 4em 0; 
+    background-image: linear-gradient(-30deg,#24035b,#7533ed 49%,#2ca2d9);
+    min-height: 100vh;
+}
+.planes-contenedor{
+    width: 90%;
+    padding: 4em 0;
+}
+.planes-introduccion h2{
+    text-align: center;
+    color: #dfdfdf;
+    font-size: 40px;
+    margin: 0;
+}
+.planes-introduccion p{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    padding: 10px 0;
+}
+.tipos-planes{
+    width: 90%;
+    padding: 1em;
+    margin: 1em 0;
+}
+.plan{
+    width: 70vh !important;
+    min-height: 50vh;
+    padding: 1em;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+.plan h5{
+    opacity: .6;
+    color: #5333ed;
+}
+.plan .caracteristica-plan{
+    color: #777;
+}
+.plan:hover{
+    background-color: #fff;
+}
+.planes{
+    padding: 4em 0;
+}
+.planes-contenedor{
+    padding: 4em 0;
+}
+.planes-introduccion h2{
+    font-size: 50px;
+    margin: 0;
+}
+.plan:hover{
+    background-color: #ffffff;
+}
+.plan h3{
+    font-size: 16px;
+    font-weight: 700;
+}
+.plan h4{
+    color: #5333ed;
+}
+.plan .caracteristica-plan:hover{
+    color: #5333ed;
+}
+.elegir-plan{
+    color: rgb(38, 38, 38);
+    background-color: #fff;
+    border: 1px solid #777;
+}
+.elegir-plan:hover{
+    color: rgb(255, 255, 255);
+    background-color: #5333ed;
+    border: 2px solid #5333ed;
+}
+.plan.distinto.medio{
+    border-radius: 0.25rem;
+    box-shadow: 0 0.5rem 2rem 0 rgba(57, 11, 126, 0.378);
+    margin-bottom: -1rem;
+    margin-top: -1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    z-index: 2;
+    height: 53vh;
+}
+.plan.distinto.medio .elegir-plan{
+    color: rgb(255, 255, 255);
+    background-color: #5333ed;
+    border: 2px solid #5333ed;
+}
+.plan.distinto{
+    border-left: 1px solid #777;
+}
+/*FIN PRIMERA SECCION TARIFF*/
+
+/*SEGUNDA SECCION TARIFF*/
+.tabla-caracteristicas-planes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 4em 0;
+}
+.tabla-caracteristicas-planes-introduccion{
+    padding: 2em 0;
+    color: rgb(10, 5, 56);
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+.tabla-caracteristicas-planes-introduccion h2{
+    font-size: 40px;
+}
+.table>:not(caption)>*>* {
+    padding: 2em 1em;
+    border-bottom-width: 0px;
+}
+.table>:not(:first-child) {
+    border-top: 1px solid rgb(218, 218, 218);
+}
+.table h3,h5{
+    color: #777;
+    font-size: 13px;
+    padding: 10px 0;
+    font-weight: 700;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.table h4{
+    color: #5333ed;
+    font-size: 40px;
+    font-weight: 700;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.table .naranja{
+    color: #ff961f;
+}
+.icono-correcto{
+    filter: brightness(0) saturate(100%) invert(48%) sepia(100%) saturate(6834%) hue-rotate(246deg) brightness(90%) contrast(108%);
+}
+.table td{
+    color: #777;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+.table th{
+    color: #777;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+}
+.lado-izquierdo{
+    border-right: 1px solid rgb(218, 218, 218);
+}
+.lado-arriba{
+    padding: 30px !important;
+    margin: 1em !important;
+    text-align: center;
+}
+/*FIN SEGUNDA SECCION TARIFF*/
+
+/*TERCERA SECCION TARIFF*/
+.inclusion-planes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 4em 0;
+}
+.inclusion-planes-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80%;
+}
+.inclusion-planes-contenedor h2{
+    color: rgb(10, 5, 56);
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.contenedor-incluye-plan{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: space-between;
+    flex-direction: row;
+    padding: 2em;
+}
+.incluye{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1em;
+    max-width: 30rem;
+}
+.incluye-body{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80%;
+    padding: 1em;
+}
+.incluye-body h3{
+    color: rgb(10, 5, 56);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+.incluye-body p{
+    color: #777;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.incluye-body p code{
+    color: rgb(80, 80, 80);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+.incluye-head{
+    padding: 1em;
+}
+.inclusion-planes-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inclusion-planes-footer-contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0.5rem 2rem 0 rgba(57, 11, 126, 0.378);
+    padding: 2em;
+}
+.inclusion-planes-footer-contenedor h2{
+    color: rgb(10, 5, 56);
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 10px 0;
+}
+.inclusion-planes-footer-contenedor p{
+    color: #777;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+/*FIN TERCERA SECCION TARIFF*/
+
+/*CUARTA SECCION TARIFF*/
+.negocios-agencias{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #5333ed;
+    padding: 4em 0;
+    min-height: 90vh;
+}
+.negocios-agencias-contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    padding: 1em;
+}
+.negocios-agencias-body{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #fff;
+    padding: 2em;
+    width: 50%;
+}
+.negocios-agencias-body h2{
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 0.5em 0;
+}
+.negocios-agencias-body p{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5em 0;
+}
+.negocios-agencias-body a{
+    padding: 15px 30px;
+    background-color: #2cd4d9;
+    text-decoration: none;
+    color: rgb(10, 5, 56);
+    border-radius: 40px;
+    border: 2px solid #2cd4d9;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 15px;
+    margin: 10px 0;
+}
+.negocios-agencias-body a:hover{
+    background-color: #2ca2d900;
+    color: #ffffff;
+}
+.negocios-agencias-head{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40%;
+    padding: 2em;
+}
+.contenedor-patrocinadores-agencias{
+    padding: 0.5em 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.negocios-agencias-head img{
+    filter: brightness(0) invert(1);
+    opacity: .4;
+    max-width: 48%;
+    margin: 10px 0;
+    max-height: 4rem;
+}
+.negocios-agencias-head img:hover{
+    opacity: 1;
+}
+/*FIN CUARTA SECCION TARIFF*/
+
+/*QUINTA SECCION TARIFF*/
+.complementos-opcionales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    min-height: 110vh;
+    background-color: #e1eaf8;
+    padding: 4em 0;
+}
+.complementos-opcionales-contenedor{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.complementos-opcionales-introduccion{
+    text-align: center;
+    width: 80%;
+}
+.complementos-opcionales-introduccion h2{
+    font-family: 'Readex Pro', sans-serif;
+    color: rgb(10, 5, 56);
+    font-weight: 700;
+    font-size: 40px;
+}
+.complementos-opcionales-introduccion p{
+    color: #777;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+.contenedor-cards-complementos-opcionales{
+    background-image: url(../../images/tarifas/fondo-complementos-opcionales.svg);
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    padding: 4em 0;
+}
+.card-complemento{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 2rem 0 rgba(0, 0, 0, 0.378);
+    padding: 2em;
+    width: 600px;
+}
+.card-complemento-body{
+    padding: 0 2em;
+    text-align: center;
+    color: #777;
+    font-family: 'Poppins', sans-serif;
+}
+.card-complemento-body h3{
+    color: rgb(0, 0, 0);
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 17px;
+}
+.card-complemento-body p{
+    color: #777;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.card-complemento.derecha{
+    align-self:flex-end;
+}
+.card-complemento.izquierda{
+    align-self: flex-start;
+}
+/*FIN QUINTA SECCION TARIFF*/
+
+/*SEXTA SECCION TARIFF*/
+.cards-features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e1eaf8;
+    padding: 4em 0;
+}
+.cards-features-introduccion{
+    text-align: center;
+}
+.cards-features-introduccion h2{
+    font-family: 'Readex Pro', sans-serif;
+    color: rgb(10, 5, 56);
+    font-weight: 700;
+    font-size: 40px;
+}
+.cards-features-introduccion p{
+    color: #777;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+.cards-features-contenedor{    
+    position: relative;
+    top: -100px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.card-feature-body{
+    padding: 1em 2em;    
+    font-family: 'Poppins', sans-serif;
+    color: #5f5f5f;
+    text-align: center;
+}
+.card-feature-body span{
+    font-weight: 900;
+    color: #777;
+}
+.card-feature h3{
+    font-family: 'Readex Pro', sans-serif;
+    color:  #0c022f;
+    font-size: 22px;
+    text-align: center;
+    margin: 1em 0;
+}
+.card-feature-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Readex Pro', sans-serif;
+    color: #777777;
+    width: 90%;
+}
+.card-feature-footer-contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1em;
+    margin: 1em;
+}
+.feature-footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 10px 0;
+    text-align: center;
+}
+.feature-footer img{
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) saturate(100%) invert(48%) sepia(100%) saturate(6834%) hue-rotate(246deg) brightness(90%) contrast(108%);
+    margin: 0 10px;
+}
+.cards-features-chicas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cards-features-chicas .card-feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1em;
+    margin: 1em;
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    min-height: 60vh;
+    border-radius: 10px;
+}
+/*FIN SEXTA SECCION TARIFF*/
+
+/*SEPTIMA SECCION TARIFF*/
+.paginas-usuarios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 4em 0;
+}
+.paginas-usuarios-contenedor{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.paginas-usuarios-introduccion h2{
+    font-family: 'Readex Pro', sans-serif;
+    color:  #0c022f;
+    font-size: 40px;
+    text-align: center;
+    padding: 2em 0;
+}
+.ejemplo-pagina-usuario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: #f6f8fa;
+    color: #777;
+    font-family: 'Poppins', sans-serif;
+    padding: 1em;
+}
+.ejemplo-pagina-usuario-body{
+    padding: 1em;
+    width: 40%;
+}
+.ejemplo-pagina-usuario-head{
+    width: 40%;
+}
+.ejemplo-pagina-usuario-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ejemplo-pagina-usuario-footer h3{
+    font-size: 16px;
+}
+.ejemplo-pagina-usuario-footer img{
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+}
+/*FIN SEPTIMA SECCION TARIFF*/
+
+/*OCTAVA SECCION TARIFF*/
+.preguntas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    color: #fff;
+    text-align: center;
+    background-image: linear-gradient(-30deg,#00004d,#5333ed 49%,#2cd4d9);
+}
+.preguntas-body{
+    padding: 1em;
+}
+.preguntas-body h2{
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 40px;
+    margin-bottom: 1em;
+}
+.preguntas-body p{
+    margin-bottom: 4em;
+    font-family: 'Poppins', sans-serif;
+}
+.preguntas-body a{
+    padding: 15px 30px;
+    background-color: #2cd4d9;
+    text-decoration: none;
+    color: rgb(10, 5, 56);
+    border-radius: 40px;
+    border: 2px solid #2cd4d9;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 15px;
+}
+.preguntas-body a:hover{
+    background-color: #2ca2d900;
+    color: #ffffff;
+}
+/*FIN OCTAVA SECCION TARIFF*/
+@media (max-width: 500px),(max-width: 900px){
+    .container-fluid{
+        background-color: #ffffff !important;
+        padding: 10px 0;
+    }
+    .nav-link{
+        color: #494949 !important;
+    }
+    .nav-link:hover{
+        border-bottom: 2px solid #ffffff;
+        background-color: rgba(255, 255, 255, 0) !important;
+    }
+    .navbar-collapse{
+        z-index: 3;
+    }
+    .nav{
+        background-color: #5641c000 !important;
+        z-index: 3;
+    }
+    .navbar-toggler{
+        box-shadow: none !important;
+        border: 1px solid #fff !important;
+    }
+    .navbar{
+        padding: 0!important;
+        position: fixed;
+    }
+    .navbar-brand{
+        color: #5333ed !important;
+    }
+    .enlace-claro-nav{
+        color:  #5333ed;
+        border: 2px solid #5333ed;
+    } 
+    /*PRIMER SECCION TARIFF*/
+    .plan{
+        width: 40vh !important;
+        padding: 2em;
+        border-radius: 0.25rem;
+        margin: 1em 0;
+        align-items: center;
+    }
+    .tipos-planes{
+        width: 100%;
+        padding: 1em 0;
+    }
+    .planes-introduccion p{
+        text-align: center;
+    }
+    .plan.distinto.medio{
+        width: 40vh !important;
+        padding: 2em;
+        border-radius: 0.25rem;
+        margin: 1em 0;
+        height: auto;
+    }
+    .elegir-plan{
+        color: rgb(38, 38, 38);
+        background-color: #fff;
+        border: 1px solid #777;
+        width: 100%;
+    }
+    .plan.distinto.medio .elegir-plan{
+        color: rgb(38, 38, 38);
+        background-color: #fff;
+        border: 1px solid #777;
+    }
+    /*FIN PRIMER SECCION TARIFF*/
+    
+    /*SEGUNDA SECCION TARIFF*/
+    .tabla-caracteristicas-planes-contenedor{
+        display: block;
+        overflow: auto;
+        position: relative;
+        width: 100%;
+    }
+    .table td{
+        padding: 0;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 14px;
+    }
+    .table th{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .table>:not(caption)>*>* {
+        padding: 0.5em;
+    }
+    .table h3,h5{
+        max-width: 7.6em;
+        min-width: 7.6em;
+        padding: 0.5em 0.5em;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+     }
+    .table h4{
+        font-size: 25px;
+    }
+    .tabla-caracteristicas-planes-introduccion h2{
+        font-size: 25px;
+    }
+    /*FIN SEGUNDA SECCION TARIFF*/
+
+    /*TERCERA SECCION TARIFF*/
+    .inclusion-planes-contenedor{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 90%;
+    }
+    .inclusion-planes-contenedor h2{
+        font-size: 30px;
+        text-align: center;
+    }
+    .contenedor-incluye-plan{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 2em;
+    }
+    .contenedor-incluye-plan{
+        padding: 2em 0;
+    }
+    .incluye{
+        width: 100%
+    }
+    .inclusion-planes-footer-contenedor{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        padding: 2em;
+    }
+    /*FIN TERCERA SECCION TARIFF*/
+
+    /*CUARTA SECCION TARIFF*/
+    .negocios-agencias-contenedor{
+        flex-direction: column;
+        width: 90%;
+    }
+    .negocios-agencias-body{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 2em 0;
+    }
+    .negocios-agencias-body h2{
+        font-size: 30px;
+        padding: 0.5em 0;
+    }
+    .negocios-agencias-head{
+        width: 90%;
+        padding: 2em 0;
+    }
+    /*FIN CUARTA SECCION TARIFF*/
+
+    /*QUINTA SECCION TARIFF*/
+    .card-complemento{
+        flex-direction: column;
+        padding: 2em 0;
+        margin: 2em 0;
+        width: 400px;
+    }
+    .card-complemento.derecha{
+        align-self:center;
+    }
+    .card-complemento.izquierda{
+        align-self: center;
+    }
+    /*FIN QUINTA SECCION TARIFF*/
+
+    /*SEXTA SECCION TARIFF*/
+    .card-feature-footer-contenedor{
+        padding: 1em 0;
+    }
+    .cards-features-chicas{
+        flex-direction: column;
+    }
+    /*FIN SEXTA SECCION TARIFF*/
+
+    /*SEPTIMA SECCION TARIFF*/
+    .ejemplo-pagina-usuario{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ejemplo-pagina-usuario-head img{
+        width: 100%;
+    }
+    .ejemplo-pagina-usuario-body{
+        padding: 1em;
+        width: 100%;
+    }
+    .ejemplo-pagina-usuario-head{
+        width: 100%;
+    }
+    .ejemplo-pagina-usuario-footer{
+        justify-content: center;
+    }
+}
+@media (min-width: 2000px){
+    .enlace-claro-nav{
+        font-size: 22px;
+    }
+    .navbar-brand{
+        font-size: 30px !important;
+    }
+    .nav-link{
+        font-size: 23px;
+    }
+    /*PRIMER SECCION TARIFF*/
+    .plan{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .plan h5{
+        font-size: 25px;
+    }
+    .planes-introduccion h2{
+        font-size: 80px;
+    }
+    .planes-introduccion p{
+        font-size: 22px;
+    }
+    .plan h3{
+        font-size: 25px;
+    }
+    .plan h4{
+        font-size: 80px;
+    }
+    .elegir-plan{
+        width: 100%;
+        font-size: 28px;
+    }
+    .plan .caracteristica-plan{
+        font-size: 28px;
+    }
+    /*FIN PRIMER SECCION TARIFF*/
+
+    /*SEGUNDA SECCION TARIFF*/
+    .tabla-caracteristicas-planes{
+        flex-direction: column;
+    }
+    .tabla-caracteristicas-planes-introduccion{
+        padding: 4em 0;
+    }
+    .tabla-caracteristicas-planes-introduccion h2{
+        font-size: 70px;
+    }
+    .tabla-caracteristicas-planes-contenedor{
+        width: 90%;
+    }
+    .table h3,h5{
+        font-size: 25px;
+    }
+    .table td{
+        font-size: 28px;
+    }
+    .table th{
+        font-size: 25px;
+    }
+    .table h4{
+        font-size: 50px;
+    }
+    /*FIN SEGUNDA SECCION TARIFF*/
+
+    /*TERCERA SECCION TARIFF*/
+    .inclusion-planes-contenedor{
+        width: 90%;
+    }
+    .inclusion-planes-contenedor h2{
+        font-size: 70px;
+    }
+    .incluye{
+        max-width: 50rem;
+    }
+    .incluye-body h3{
+        font-size: 30px;
+    }
+    .incluye-body p{
+        font-size: 24px;
+    }
+    .incluye-body p code{
+        font-size: 24px;
+    }
+    .inclusion-planes-footer-contenedor h2{
+        font-size: 30px;
+    }
+    .inclusion-planes-footer-contenedor p{
+        font-size: 24px;
+    }
+    /*FIN TERCERA SECCION TARIFF*/
+
+    /*CUARTA SECCION TARIFF*/
+    .negocios-agencias-body h2{
+        font-size: 70px;
+    }
+    .negocios-agencias-body p{
+        font-size: 24px;
+    }
+    .negocios-agencias-body a{
+        font-size: 25px;
+    }
+    .negocios-agencias-head img{
+        max-width: 48%;
+        max-height: 10rem;
+    }
+    /*FIN CUARTA SECCION TARIFF*/
+
+    /*QUINTA SECCION TARIFF*/
+    .complementos-opcionales-introduccion h2{
+        font-size: 70px;
+    }
+    .complementos-opcionales-introduccion p{
+        font-size: 25px;
+    }
+    .contenedor-cards-complementos-opcionales{
+        background-position: bottom;
+        width: 90%;
+    }
+    .card-complemento{
+        width: 1000px;
+    }
+    .card-complemento-body h3{
+        font-size: 30px;
+    }
+    .card-complemento-body p{
+        font-size: 24px;
+    }
+    .card-complemento-body span{
+        font-size: 22px;
+    }
+    /*FIN QUINTA SECCION TARIFF*/
+
+    /*SEXTA SECCION TARIFF*/
+    .cards-features-introduccion h2{
+        font-size: 70px;
+    }
+    .cards-features-introduccion p{
+        font-size: 25px;
+    }
+    .card-feature-body span{
+        font-size: 22px;
+    }
+    .card-feature h3{
+        font-size: 30px;
+    }
+    .card-feature p{
+        font-size: 25px;
+    }
+    .cards-features-chicas .card-feature{
+        width: 600px;
+        min-height: 40vh;
+    }
+    /*FIN SEXTA SECCION TARIFF*/
+
+    /*SEPTIMA SECCION TARIFF*/
+    .paginas-usuarios-contenedor{
+        width: 90%;
+    }
+    .paginas-usuarios-introduccion h2{
+        font-size: 70px;
+    }
+    .ejemplo-pagina-usuario-body{
+        padding: 2em;
+        width: 50%;
+    }
+    .ejemplo-pagina-usuario-body p{
+        font-size: 30px;
+    }
+    .ejemplo-pagina-usuario-head{
+        width: 50%;
+    }
+    .ejemplo-pagina-usuario-head img{
+        width: 100%;
+    }
+    .ejemplo-pagina-usuario-footer h3{
+        font-size: 30px;
+    }
+    .ejemplo-pagina-usuario-footer img{
+        width: 5em;
+        height: 5em;
+    }
+    /*FIN SEPTIMA SECCION TARIFF*/
+
+    /*OCTAVA SECCION TARIFF*/
+    .preguntas-body h2{
+        font-size: 70px;
+    }
+    .preguntas-body p{
+        font-size: 30px;
+    }
+    .preguntas-body a{
+        padding: 20px 40px;
+        font-size: 30px;
+    }
+    /*FIN OCTAVA SECCION TARIFF*/
+
+}

@@ -1,0 +1,931 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Mulish:ital,wght@1,700&family=Poppins:wght@300&family=Readex+Pro:wght@600;700&family=Rubik:ital,wght@1,700&display=swap');
+
+.nav-link{
+    color: #ffffff !important;
+}
+.nav-link:hover{
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+.enlace-claro-nav{
+    color:  #ffffff;
+    padding: 10px 30px;
+    border: 2px solid #ffffff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+} 
+.enlace-claro-nav:hover{
+    color: #5641c0;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+}
+.navbar-brand{
+    font-family: 'Mulish', sans-serif;
+    color: #ffffff !important;
+    font-size: 25px !important;
+}
+
+/*PRIMERA SECCION FEATURES*/
+.presentacion-features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #5333ed;
+    min-height: 90vh;
+}
+.presentacion-features-contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    padding: 2em;
+}
+.presentacion-features-contenedor h2{
+    font-weight: 800;
+    color: #fff;
+    font-size: 50px;
+}
+.presentacion-features-contenedor p{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+/*FIN PRIMERA SECCION FEATURES*/
+
+/*SEGUNDA SECCION FEATURES*/
+.cards-features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e1eaf8;
+}
+.cards-features-contenedor{    
+    position: relative;
+    top: -100px;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.cards-feature-grandes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cards-feature-grandes .card-feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1em;
+    background-color: rgb(255, 255, 255);
+    width: 550px;
+    min-height: 70vh;
+    border-radius: 10px;
+}
+.card-feature-body{
+    padding: 1em 2em;    
+    font-family: 'Poppins', sans-serif;
+    color: #5f5f5f;
+}
+.card-feature h3{
+    font-family: 'Readex Pro', sans-serif;
+    color:  #0c022f;
+    font-size: 22px;
+    text-align: center;
+    margin: 1em 0;
+}
+.card-feature-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Readex Pro', sans-serif;
+    color: #777777;
+    width: 90%;
+}
+.card-feature-footer-contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1em;
+    margin: 1em;
+}
+.feature-footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 10px 0;
+    text-align: center;
+}
+.feature-footer img{
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) saturate(100%) invert(48%) sepia(100%) saturate(6834%) hue-rotate(246deg) brightness(90%) contrast(108%);
+    margin: 0 10px;
+}
+.cards-features-chicas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cards-features-chicas .card-feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 1em;
+    margin: 1em;
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    min-height: 60vh;
+    border-radius: 10px;
+}
+/*FIN SEGUNDA SECCION FEATURES*/
+
+/*TERCERA SECCION FEATURES*/
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #e1eaf8;
+    padding: 4em 0;
+}
+.features-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+.features-introduccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.features-introduccion-body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    color: #5f5f5f;
+    width: 40%;
+}
+.features-introduccion-body p{
+    font-size: 17px;
+}
+.features-introduccion-body h2{
+    color: #0c022f;
+    font-family: 'Readex Pro', sans-serif;
+}
+.tranquilidad-introduccion-head{
+    width: 40%;
+    height: 40vh;
+    background-image: url(../../images/caracteristicas/caracteristica-home/chico-tranquilidad.svg);
+    background-position: center;
+    background-size: cover;
+}
+.features-introduccion-footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    padding: 1em;
+}
+.caracteristicas-features{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Readex Pro', sans-serif;
+    color:  #0c022f;
+    margin: 10px;
+}
+.caracteristicas-features h3{
+    font-size: 14px;
+    padding: 5px;
+}
+.monitoreo h3{
+    border-bottom: 2px solid #2cd4d9;;
+}
+.features-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.features-footer-contenedor{
+    background-color: #fff;
+    width: 80%;
+    border: 20px;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+}
+.features-footer-contenedor h2{
+    font-family: 'Readex Pro', sans-serif;
+    color:  #0c022f;
+    font-size: 22px;
+    margin-bottom: 1em;
+}
+.contenedor-caracteristicas-features-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 1em 0;
+}
+.caracteristica-features-footer{
+    width: 40%;
+    font-family: 'Poppins', sans-serif;
+    color: #5f5f5f;
+}
+.caracteristica-features-footer h3{
+    color: #0c022f;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+/*FIN TERCERA SECCION FEATURES*/
+
+/*CUARTA SECCION FEATURES*/
+.soporte-nativo-introduccion-head{
+    width: 40%;
+    height: 40vh;
+    background-image: url(../../images/caracteristicas/caracteristica-home/soporte-spanish-nativo.svg);
+    background-position: left;
+    background-size: cover;
+}
+.experto h3{
+    border-bottom: 2px solid #2cd4d9;;
+}
+/*FIN CUARTA SECCION FEATURES*/
+
+/*QUINTA SECCION FEATURES*/
+.panel-control-introduccion-head{
+    width: 40%;
+    height: 40vh;
+    background-image: url(../../images/caracteristicas/caracteristica-home/panel-control.svg);
+    background-position: right;
+    background-size: cover;
+}
+.experto h3{
+    border-bottom: 2px solid #2cd4d9;;
+}
+/*FIN QUINTA SECCION FEATURES*/
+
+/*SEXTA SECCION FEATURES*/
+.gestion-sitios{
+    padding: 3em 0;
+}
+.titulo-gestion-sitios{
+    font-size: 40px;
+    text-align: center;
+    width: 50%;
+}
+.gestion-sitios-contenedor{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: none;
+}
+.gestion-sitios-body{
+    width: 50%;
+    align-items: flex-start;
+    font-family: 'Poppins', sans-serif;
+}
+.gestion-sitios-head{
+    width: 60%;
+}
+.gestion-sitios-head img{
+    height: 50vh;
+}
+/*FIN SEXTA SECCION FEATURES*/
+
+/*SEPTIMA SECCION FEATURES*/
+.complementos-opcionales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 4em 0;
+}
+.complementos-opcionales-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+.complementos-opcionales-introduccion{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.complementos-opcionales-introduccion h2{
+    font-family: 'Readex Pro', sans-serif;
+    color:  #0c022f;
+    font-size: 40px;
+    margin: 10px 0;
+}
+.conjunto-complementos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 1em 0;
+}
+.complemento{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: flex-start;
+}
+.complemento-body{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 20px;
+}
+.complemento-body h3{
+    font-family: 'Readex Pro', sans-serif;
+    color:  #0c022f;
+    font-size: 16px;
+}
+.complemento-body p{
+    font-size: 15px;
+    color: #777777;
+}
+.complemento-body a{
+    text-decoration: none;
+    color: #5333ed;
+}
+/*FIN SEPTIMA SECCION FEATURES*/
+
+/*OCTAVA SECCION FEATURES*/
+.detalles-nerdy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50%;
+    background-image: -webkit-linear-gradient(0deg, #150773 0%, #150773 calc(50% + 128px), #3D23C0 calc(50% + 128px), #3D23C0 100%);
+}
+.detalles-nerdy-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 60%;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.detalles-nerdy-body{
+    width: 60%;
+    padding: 1em 0;
+}
+.detalles-nerdy-body p{
+    padding: 1em 0;
+}
+.detalles-nerdy-contenedor h2{
+    font-family: 'Readex Pro', sans-serif;
+    margin-bottom: 10px;
+}
+.detalles-nerdy-body a:hover{
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #5333ed;
+    color: #fff;
+}
+/*FIN OCTAVA SECCION FEATURES*/
+
+/*NOVENA SECCION FEATURES*/
+.servicios-especiales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 4em 0;
+    margin-bottom: 4em;
+}
+.servicios-especiales-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+.servicios-especiales-introduccion{
+    font-family: 'Readex Pro', sans-serif;
+    text-align: center;
+    color:  #0c022f;
+}
+.servicios-especiales-introduccion h2{
+    font-size: 40px;
+}
+.servicios-especiales-introduccion p{
+    font-family: 'Poppins', sans-serif;
+    color: #777777;
+}
+.contenedor-servicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
+.contenedor-servicios h3{
+    font-family: 'Readex Pro', sans-serif;
+    color:  #0c022f;
+}
+.contenedor-servicios a{
+    padding: 8px 30px;
+}
+.woocommerce{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #777777;
+    box-shadow: 1px 10px 80px 5px #777777;
+    padding: 2em;
+    min-height: 20rem;
+}
+.hosting-empresarial{  
+    margin-bottom: 5em;
+    position: relative;
+    top: 200px;
+    padding: 2em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    color: #777777;
+    box-shadow: 1px 6px 30px 2px #777777;
+    min-height: 20rem;
+}
+/*FIN NOVENA SECCION FEATURES*/
+
+/*DECIMA SECCION FEATURES*/
+.planes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: linear-gradient(-30deg,#00004d,#5333ed 49%,#2cd4d9);
+    padding: 4em;
+}
+/*FIN DECIMA SECCION FEATURES*/
+
+
+@media (max-width: 500px),(max-width: 900px){
+
+    .container-fluid{
+        background-color: #ffffff !important;
+        padding: 10px 0;
+    }
+    .nav-link{
+        color: #494949 !important;
+    }
+    .nav-link:hover{
+        border-bottom: 2px solid #ffffff;
+        background-color: rgba(255, 255, 255, 0) !important;
+    }
+    .navbar-collapse{
+        z-index: 3;
+    }
+    .nav{
+        background-color: #5641c000 !important;
+        z-index: 3;
+    }
+    .navbar-toggler{
+        box-shadow: none !important;
+        border: 1px solid #fff !important;
+    }
+    .navbar{
+        padding: 0!important;
+        position: fixed;
+    }
+    .navbar-brand{
+        color: #5333ed !important;
+    }
+    .enlace-claro-nav{
+        color:  #5333ed;
+        border: 2px solid #5333ed;
+    } 
+
+    /*PRIMER SECCION FEATURES*/
+    .presentacion-features-contenedor{
+        flex-direction: column;
+        width: 90%;
+        padding: 2em 0;
+    }
+    .features-head img{
+        width: 100%;
+    }
+    /*FIN PRIMERA SECCION FEATURES*/
+
+    /*SEGUNDA SECCION FEATURES*/
+    .cards-features-contenedor{    
+        position: initial;
+        top: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .cards-feature-grandes{
+        flex-direction: column;
+    }
+    .cards-feature-grandes .card-feature{
+        margin: 1em 0;
+        width: 40vh;
+    }
+    .card-feature-body{
+        padding: 2em 1em;    
+    }
+    .card-feature-footer{
+        width: 100%;
+    }
+    .card-feature-footer-contenedor{
+        padding: 0;
+        margin: 0;
+    }
+    .feature-footer{
+        margin: 10px 0;
+    }
+    .cards-features-chicas{
+        flex-direction: column;
+    }
+    /*FIN SEGUNDA SECCION FEATURES*/
+
+    /*TERCERA SECCION FEATURES*/
+    .features-introduccion{
+        flex-direction: column;
+    }
+    .features-introduccion-body{
+        width: 100%;
+    }
+    .tranquilidad-introduccion-head{
+        width: 100%;
+    }
+    .caracteristicas-features{
+        flex-direction: column;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
+        justify-content: flex-start;
+    }
+    .features-introduccion-footer{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .caracteristicas-features h3{
+        font-size: 14px;
+        padding: 5px;
+    }
+    .monitoreo h3{
+        border-bottom: 2px solid #2cd4d9;;
+    }
+    .features-footer-contenedor{
+        width: 100%;
+        padding: 2em 1em;
+    }
+    .features-footer-contenedor h2{
+        font-size: 18px;
+    }
+    .contenedor-caracteristicas-features-footer{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .caracteristica-features-footer{
+        width: 100%;
+    }
+    /*FIN TERCERA SECCION FEATURES*/
+
+    /*CUARTA SECCION FEATURES*/
+    .soporte-nativo-introduccion-head{
+        width: 100%;
+    }
+    /*FIN CUARTA SECCION FEATURES*/
+
+    /*QUINTA SECCION FEATURES*/
+    .panel-control-introduccion-head{
+        width: 100%;
+    }
+    /*FIN QUINTA SECCION FEATURES*/
+
+    /*SEXTA SECCION FEATURES*/
+    .titulo-gestion-sitios{
+        width: 100%;
+    }
+    .gestion-sitios-body{
+        width: 100%;
+    }
+    .gestion-sitios-head{
+        width: 100%;
+    }
+    .gestion-sitios-head img{
+        width: 100%;
+        height: 100%;
+    }
+    .gestion-sitios-footer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .gestion-sitios-footer-contenedor{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .gestion-sitios-footer-contenedor a{
+        margin: 10px 0;
+    }
+    /*FIN SEXTA SECCION FEATURES*/
+
+    /*SEPTIMA SECCION FEATURES*/
+    .complementos-opcionales-contenedor{
+        width: 100%;
+    }
+    .complementos-opcionales-introduccion h2{
+        font-size: 30px;
+    }
+    .conjunto-complementos{
+        align-items: flex-start;
+    }
+    .complemento{
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .complemento-body{
+        width: 100%;
+        text-align: center;
+    }
+    /*FIN SEPTIMA SECCION FEATURES*/
+
+    /*OCTAVA SECCION FEATURES*/
+    .detalles-nerdy-contenedor{
+        flex-direction: column;
+        width: 100%;
+    }
+    .detalles-nerdy-body{
+        width: 90%;
+    }
+    .detalles-nerdy-head img{
+        width: 100%;
+    }
+    /*FIN OCTAVA SECCION FEATURES*/
+
+    /*NOVENA SECCION FEATURES*/
+    .servicios-especiales-contenedor{
+        width: 100%;
+    }
+    .servicios-especiales-introduccion{
+        font-family: 'Readex Pro', sans-serif;
+        text-align: center;
+        color:  #0c022f;
+    }
+    .servicios-especiales-introduccion h2{
+        font-size: 40px;
+    }
+    .servicios-especiales-introduccion p{
+        font-family: 'Poppins', sans-serif;
+        color: #777777;
+    }
+    .contenedor-servicios{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2em 0;
+    }
+    .hosting-empresarial{  
+        margin-top: 1em;
+        position: initial;
+        padding: 2em;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 1px 6px 30px 2px #777777;
+    }
+    .woocommerce{
+        justify-content: center;
+        box-shadow: 1px 6px 30px 2px #777777;
+    }
+
+}
+
+@media (min-width: 2000px){
+    .enlace-claro-nav{
+        font-size: 22px;
+    }
+    .navbar-brand{
+        font-size: 30px !important;
+    }
+    .nav-link{
+        font-size: 23px;
+    }
+    /*PRIMER SECCION FEATURES*/
+    .presentacion-features-contenedor{
+        width: 80%;
+    }
+    .presentacion-features-contenedor h2{
+        font-size: 70px;
+    }
+    .presentacion-features-contenedor p{
+        font-size: 25px;
+    }
+    .presentacion-features-contenedor img{
+        width: 100%;
+    }
+    .features-head{
+        width: 50%;
+    }
+    .features-body{
+        width: 50%;
+    }
+    /*FIN PRIMER SECCION FEATURES*/
+
+    /*SEGUNDA SECCION FEATURES*/
+    .cards-feature-grandes .card-feature{
+        width: 800px;
+        min-height: 50vh;
+    }
+    .card-feature h3{
+        font-size: 30px;
+    }
+    .card-feature p{
+        font-size: 25px;
+    }
+    .card-feature span{
+        font-size: 22px;
+    }
+    .feature-footer img{
+        width: 30px;
+        height: 30px;
+    }
+    .cards-features-chicas .card-feature{
+        width: 500px;
+        min-height: 45vh;
+    }
+    /*FIN SEGUNDA SECCION FEATURES*/
+
+    /*TERCERA SECCION FEATURES*/
+    .features-introduccion-body p{
+        font-size: 25px;
+    }
+    .features-introduccion-body h2{
+        font-size: 70px;
+    }
+    .caracteristicas-features h3{
+        font-size: 25px;
+    }
+    .features-footer-contenedor h2{
+        font-size: 30px;
+    }
+    .caracteristica-features-footer h3{
+        font-size: 28px;
+    }
+    .caracteristica-features-footer p{
+        font-size: 22px;
+    }
+    /*FIN TERCERA SECCION FEATURES*/
+
+    /*SEXTA SECCION FEATURES*/
+    .titulo-gestion-sitios{
+        font-size: 70px;
+    }
+    .gestion-sitios-body p{
+        font-size: 25px;
+    }
+    .gestion-sitios-body h2 button{
+        font-size: 30px !important;
+    }
+    .gestion-sitios-head{
+        width: 60%;
+    }
+    .gestion-sitios-head img{
+        height: auto;
+        width: 100%;
+    }
+    /*FIN SEXTA SECCION FEATURES*/
+
+    /*SEPTIMA SECCION FEATURES*/
+    .complementos-opcionales-introduccion h2{
+        font-size: 70px;
+    }
+    .complementos-opcionales-introduccion p{
+        font-size: 25px;
+    }
+    .complemento{
+        width: 800px;
+    }
+    .complemento-body h3{
+        font-size: 30px;
+    }
+    .complemento-body p{
+        font-size: 22px;
+    }
+    .complemento-body a{
+        font-size: 22px;
+    }
+    /*FIN SEPTIMA SECCION FEATURES*/
+
+    /*OCTAVA SECCION FEATURES*/
+    .detalles-nerdy{
+        min-height: 40vh;
+    }
+    .detalles-nerdy-body p{
+        font-size: 25px;
+    }
+    .detalles-nerdy-contenedor h2{
+        font-size: 50px;
+    }
+    .detalles-nerdy-head{
+        width: 40%;
+    }
+    .detalles-nerdy-head img{
+        width: 100%;
+    } 
+    /*FIN OCTAVA SECCION FEATURES*/
+
+    /*NOVENA SECCION FEATURES*/
+    .servicios-especiales-introduccion h2{
+        font-size: 70px;
+    }
+    .servicios-especiales-introduccion p{
+        font-size: 25px;
+    }
+    .contenedor-servicios h3{
+        font-family: 'Readex Pro', sans-serif;
+        color:  #0c022f;
+    }
+    .woocommerce{
+        font-size: 25px;
+    }
+    .hosting-empresarial{  
+        font-size: 25px;
+    }
+    /*FIN NOVENA SECCION FEATURES*/
+
+    /*DECIMA SECCION FEATURES*/
+    .planes-introduccion h2{
+        font-size: 70px;
+    }
+    .plan{
+        height: 40vh;
+        justify-content: center;
+        align-items: center;
+    }
+    .elegir-plan{
+        width: 100%;
+    }
+    /*FIN DECIMA SECCION FEATURES*/
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
